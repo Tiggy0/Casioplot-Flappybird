@@ -1,6 +1,5 @@
 from casioplot import *
 from random import randint
-#import pygame
 
 class Rect():
 
@@ -119,5 +118,6 @@ score=0
 continueKeys=("24","95")
 Pipe._registry.append(Pipe(195,95))
 Pipe._registry.append(Pipe(360,randint(30,125)))
+
 
 main()
