@@ -11,7 +11,11 @@ The main file, flappybird.py is 100% human, but runs very slowly ~ 1fps
 The faster and probably preferable file geminiOptmised.py, this is what gemini responded with when i asked it to optimise flappybird.py, this runs around 3fps
 
 Controls:
-  OK or EXE: moves bird up - I reccomend holding it down as it may not register with short presses
-  Home: Stops game
-  Tools: Pauses game
-  AC: KeyboardInterupt - use this to clear the screen and go back to the main interface or to exit if it crashes
+
+  * OK or EXE: moves bird up - I reccomend holding it down as it may not register with short presses
+
+  * Home: Stops game
+
+  * Tools: Pauses game
+
+  * AC: KeyboardInterupt - use this to clear the screen and go back to the main interface or to exit if it crashes
