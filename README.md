@@ -7,8 +7,10 @@ As far as i know, this is the first program to use casioplot in this way, as a f
 To install simply connect your calculator in usb flash mode and transfer the .py file over, then run it in the python app.
 It runs very slowly ~ 1 fps, due to the limitations of python, the hardware, and my coding ability - im sure someone with more experience could optimise it.
 
-The main file, flappybird.py is 100% human, but runs very slowly ~ 1fps
-The faster and probably preferable file geminiOptmised.py, this is what gemini responded with when i asked it to optimise flappybird.py, this runs around 3fps
+The file i recommend is flappybirdLines, this is 100% human and runs very fast, this is done by only rendering the boder lines of objects, so it runs faster but has a worse visual quality, this runs around 8 fps and is much more playable than any of the other files
+
+The full file, flappybird.py is 100% human, but runs very slowly ~ 1fps
+The faster and probably preferable(if visual quality is more important than performance) file geminiOptmised.py, this is what gemini responded with when i asked it to optimise flappybird.py, this runs around 3fps
 
 Controls:
 
