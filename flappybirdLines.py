@@ -140,7 +140,7 @@ def end():
 def pause():
     centreText(("Paused, Score: "+str(score)),(0,0,0),"medium")
     show_screen()
-    while not (str(getkey()) in continueKeys):
+    while not (getkey() in continueKeys):
         pass
     main()
 
@@ -151,3 +151,4 @@ Pipe._registry.append(Pipe(195,95))
 Pipe._registry.append(Pipe(380,randint(60,130)))
 
 main()
+
